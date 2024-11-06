@@ -8,8 +8,7 @@ build:
     - docker:dind
   image: docker:latest
   script:
-    - docker build -t apache-image ../task2/
-    - docker run -d -p 12345:80 apache-image
+    - docker-compose up --build
     - sleep 5
 
 test:

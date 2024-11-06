@@ -8,7 +8,7 @@ build:
     - docker:dind
   image: docker:latest
   script:
-    - docker-compose up --build
+    - docker-compose -f ../task2/docker-compose.yml up --build
     - sleep 5
 
 test:

@@ -29,7 +29,7 @@ The script:
 2. Run the script with Python 3:
 
     ```bash
-    python heartbeat_checker.py
+    python heartbeat_check.py
     ```
 
 ### Example Output
